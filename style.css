@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Inter', sans-serif;
+    background: #fafafa;
+    color: #24292e;
+}
+
+.container {
+    flex: 1 0 auto;
+    padding: 0 16px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.header {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+#title {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #ff6600;
+}
+
+#tag-line {
+    font-size: 1.5rem;
+    opacity: 0.8;
+    font-weight: 300;
+}
+
+.score-section {
+    margin-bottom: 50px;
+}
+
+.score {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #ff6600;
+}
+
+.instruction {
+    font-size: 1.1rem;
+}
+
+.game-container {
+
+    display: flex;
+    gap: 40px;
+    margin-bottom: 40px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin-top: 40px;
+    background: white;
+    border-radius: 15px;
+    padding: 30px;
+    width: 350px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: 2px solid #c9d1d9;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    border-color: #ff6600;
+    box-shadow: 0 4px 20px rgba(255, 102, 0, 0.5);
+}
+
+.card.correct {
+    border-color: #4ade80;
+    background: rgba(74, 222, 128, 0.1);
+}
+
+.card.incorrect {
+    border-color: #f87171;
+    background: rgba(248, 113, 113, 0.1);
+}
+
+.card.disabled {
+    pointer-events: none;
+    opacity: 0.7;
+}
+
+.startup-name {
+    text-decoration: underline;
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #ff6600;
+}
+
+.startup-description {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.funding-info {
+    color: #ff6600;
+    background: rgba(255, 102, 0, 0.1);
+    border-radius: 6px;
+    padding: 4px 8px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.result-section {
+    margin: 0 auto 30px;
+    max-width: 600px;
+}
+
+.result-message {
+
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.result-message.correct {
+    background: rgba(74, 222, 128, 0.2);
+    border: 2px solid #4ade80;
+}
+
+.result-message.incorrect {
+    background: rgba(248, 113, 113, 0.2);
+    border: 2px solid #f87171;
+}
+
+.next-btn {
+    background: #ff6600;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.5rem;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.next-btn:hover {
+    background: #bd4400;
+}
+
+.footer {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer a {
+    color: #ff6600;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    #title {
+        font-size: 2.5rem;
+    }
+
+    #tag-line {
+        font-size: 1.2rem;
+    }
+
+    .score {
+        font-size: 1.5rem;
+    }
+
+    .instruction {
+        font-size: 1rem;
+        padding: 0 10px;
+    }
+
+    .card {
+        width: 50%;
+        max-width: 90vw;
+        padding: 20px;
+    }
+
+    .startup-name {
+        font-size: 1.3rem;
+    }
+
+    .startup-description {
+        font-size: 0.95rem;
+    }
+
+    .next-btn {
+        font-size: 1.2rem;
+        width: 90%;
+        padding: 12px;
+    }
+}

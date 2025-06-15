@@ -1,0 +1,247 @@
+[
+  {
+    "name": "Liquid Death",
+    "description": "Sells canned mountain water with heavy metal-inspired branding",
+    "funding": "$195M"
+  },
+  {
+    "name": "Bird Buddy",
+    "description": "Smart bird feeder that takes photos of birds and identifies species using AI",
+    "funding": "$20M+"
+  },
+  {
+    "name": "CamelsNow",
+    "description": "Online camel delivery and logistics platform for the Middle East",
+    "funding": "Undisclosed"
+  },
+  {
+    "name": "Toilet Finder",
+    "description": "Mobile app to locate clean public toilets nearby",
+    "funding": "$500K+"
+  },
+  {
+    "name": "Gik Live!",
+    "description": "Sells blue-colored wine made from grapes and food dye",
+    "funding": "$2.5M+"
+  },
+  {
+    "name": "Rent-a-Chicken",
+    "description": "Service that rents live chickens and coops for backyard egg-laying",
+    "funding": "Self-funded"
+  },
+  {
+    "name": "Cuddlr",
+    "description": "Location-based app to find people for platonic cuddling",
+    "funding": "Undisclosed"
+  },
+  {
+    "name": "BeFake",
+    "description": "AI-powered photo-sharing app that lets users generate fake versions of themselves",
+    "funding": "$3M"
+  },
+  {
+    "name": "Zed Run",
+    "description": "Digital horse racing platform where users buy, breed, and race NFT horses",
+    "funding": "$20M"
+  },
+  {
+    "name": "Poparazzi",
+    "description": "Photo-sharing app where friends post pictures of you, but you can't post your own photos",
+    "funding": "$15M"
+  },
+  {
+    "name": "Valpas",
+    "description": "Smart bed legs that detect and trap bed bugs via an app",
+    "funding": "€4M"
+  },
+  {
+    "name": "Loop Biotech",
+    "description": "Biodegradable coffins and urns made from mushrooms",
+    "funding": "€2M"
+  },
+  {
+    "name": "Depet",
+    "description": "Organizes funerals and wakes for pets",
+    "funding": "€5M"
+  },
+  {
+    "name": "Smell Made Digital",
+    "description": "Digital scent delivery systems for wellness and sleep",
+    "funding": "$2.2M"
+  },
+  {
+    "name": "Sort A Brick",
+    "description": "AI-powered service that sorts and repackages used LEGO bricks",
+    "funding": "€1.15M"
+  },
+  {
+    "name": "Resting Reef",
+    "description": "Turns human and pet ashes into coral reef memorials in the ocean",
+    "funding": "Pre-launch"
+  },
+  {
+    "name": "Potato Parcel",
+    "description": "Delivers potatoes stamped with custom messages",
+    "funding": "$50K"
+  },
+  {
+    "name": "Pipedream",
+    "description": "Builds underground pipelines to deliver parcels using capsules",
+    "funding": "$24M"
+  },
+  {
+    "name": "Cortical Labs",
+    "description": "Builds computing systems with living brain cells and electronics",
+    "funding": "$10M"
+  },
+  {
+    "name": "Bark Air",
+    "description": "Operates a luxury airline service designed specifically for dogs",
+    "funding": "$6.3M"
+  },
+  {
+    "name": "Magic Spoon",
+    "description": "Sells nostalgic, low-carb cereal designed for adults",
+    "funding": "Undisclosed"
+  },
+  {
+    "name": "Planet A Foods",
+    "description": "Makes cocoa-free chocolate via plant fermentation",
+    "funding": "$43M"
+  },
+  {
+    "name": "Savor",
+    "description": "Creates edible fats from fossil fuels and CO₂ using microbes",
+    "funding": "$23M"
+  },
+  {
+    "name": "Onego Bio",
+    "description": "Produces egg protein via fermentation with no chickens involved",
+    "funding": "$40M"
+  },
+  {
+    "name": "Perfect Day",
+    "description": "Produces dairy proteins through fermentation without cows",
+    "funding": "$800M+"
+  },
+  {
+    "name": "Eden Brew",
+    "description": "Creates animal-free milk via precision fermentation",
+    "funding": "$16M"
+  },
+  {
+    "name": "Aromyx",
+    "description": "Creates digital representations of smell and taste using biotech sensors",
+    "funding": "$10M+"
+  },
+  {
+    "name": "PetriDish",
+    "description": "Crowdfunding platform for scientists to raise money for biology experiments",
+    "funding": "$1.2M"
+  },
+  {
+    "name": "Smallhold",
+    "description": "Grew specialty mushrooms in urban micro-farms before going bankrupt",
+    "funding": "$90M"
+  },
+  {
+    "name": "what3words",
+    "description": "Maps every 3m² on Earth to a unique three-word address",
+    "funding": "Undisclosed"
+  },
+  {
+    "name": "Mycocycle",
+    "description": "Uses mushrooms to break down construction and plastic waste",
+    "funding": "Unknown"
+  },
+  {
+    "name": "Mogu (SQIM)",
+    "description": "Produces mycelium-based design materials like acoustic panels and flooring",
+    "funding": "Unknown"
+  },
+  {
+    "name": "MycoWorks",
+    "description": "Grows fine mycelium to make leather-like fashion materials",
+    "funding": "$45M"
+  },
+  {
+    "name": "G.O.A.T. Fuel",
+    "description": "Energy drink made from Cordyceps mushrooms",
+    "funding": "Unknown"
+  },
+  {
+    "name": "Odyssey Wellness",
+    "description": "Mushroom-based functional drinks with Lion’s Mane and Cordyceps",
+    "funding": "Unknown"
+  },
+  {
+    "name": "4AG Robotics",
+    "description": "Automates mushroom farming with robotic harvesters",
+    "funding": "Unknown"
+  },
+  {
+    "name": "Coral Vita",
+    "description": "Grows coral in land-based tanks to regenerate dying reefs",
+    "funding": "$2M"
+  },
+  {
+    "name": "Neptune Memorial Reef",
+    "description": "Underwater columbarium and memorial site built into a manmade reef",
+    "funding": "Nonprofit / ongoing"
+  },
+  {
+    "name": "Reef Design Lab",
+    "description": "3D-prints reef structures for marine life restoration",
+    "funding": "Unknown"
+  },
+  {
+    "name": "MARRS (Mars Reef)",
+    "description": "Reef restoration tech using steel frames, spun out of Mars Inc.",
+    "funding": "Corporate-spun"
+  },
+  {
+    "name": "Bonsai Mirai",
+    "description": "Modern bonsai tree gallery and subscription-based bonsai livestream platform",
+    "funding": "Unknown"
+  },
+  {
+    "name": "Goat 2 Meeting",
+    "description": "Rent a goat to join your Zoom call for team meetings",
+    "funding": "Unknown"
+  },
+  {
+    "name": "AeroFarms",
+    "description": "Grows leafy greens in vertical farms using aeroponics and mist",
+    "funding": "$300M+"
+  },
+  {
+    "name": "BioCarbon Engineering",
+    "description": "Uses drones to fire tree seeds into the ground for reforestation",
+    "funding": "Unknown"
+  },
+  {
+    "name": "Billion Oyster Project",
+    "description": "Restores oyster reefs to clean NYC’s harbor through recycled shells",
+    "funding": "Nonprofit / grant funded"
+  },
+  {
+    "name": "Shoes That Grow",
+    "description": "Makes adjustable shoes that grow with a child’s feet over years",
+    "funding": "Unknown"
+  },
+  {
+    "name": "Feathered Friends Forever",
+    "description": "Parrot sanctuary that rents birds for therapy or parties",
+    "funding": "Unknown"
+  },
+  {
+    "name": "Cowlar",
+    "description": "Smart collar for cows to monitor health and productivity",
+    "funding": "$2.5M"
+  },
+  {
+    "name": "Natilus",
+    "description": "Autonomous cargo drones that look like blended-wing aircraft",
+    "funding": "$120M"
+  }
+]
