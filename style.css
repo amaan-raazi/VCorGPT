@@ -58,7 +58,6 @@ body {
 }
 
 .game-container {
-
     display: flex;
     gap: 40px;
     margin-bottom: 40px;
@@ -126,7 +125,6 @@ body {
 }
 
 .result-message {
-
     font-size: 1.3rem;
     margin-bottom: 20px;
     padding: 20px;
@@ -174,71 +172,90 @@ body {
 }
 
 @media (max-width: 768px) {
+    .container {
+        padding: 0 12px;
+    }
+
     #title {
-        font-size: 2rem;
+        font-size: 2.5rem;
+        line-height: 1.1;
     }
 
     #tag-line {
-        font-size: 1rem;
+        font-size: 1.2rem;
+        line-height: 1.3;
     }
 
     .score {
-        font-size: 1.5rem;
+        font-size: 1.7rem;
     }
 
     .instruction {
         font-size: 1rem;
-        padding: 0 10px;
-    }
-
-    .game-container {
-        margin-bottom: 20px;
+        padding: 0 8px;
+        line-height: 1.4;
     }
 
     .header {
-        margin-top: 20px;
-        margin-bottom: 0;
-    }
-
-    .score-section {
+        margin-top: 30px;
         margin-bottom: 20px;
     }
 
+    .score-section {
+        margin-bottom: 30px;
+    }
+
     .game-container {
-        gap: 20px;
+        flex-direction: column;
+        gap: 16px;
+        margin-bottom: 30px;
+        align-items: center;
     }
 
     .card {
         margin-top: 0;
-        width: 50%;
-        max-width: 90vw;
-        padding: 20px;
+        width: 100%;
+        max-width: 350px;
+        padding: 24px;
+        min-height: 44px;
     }
 
     .startup-name {
-        font-size: 1rem;
+        font-size: 1.3rem;
+        line-height: 1.2;
+        margin-bottom: 12px;
     }
 
     .startup-description {
-        opacity: 1;
-        font-size: 0.8rem;
+        font-size: 0.9rem;
+        line-height: 1.5;
     }
 
-    .result-message {
-        font-size: 1rem;
+    .funding-info {
+        font-size: 0.85rem;
+        padding: 6px 10px;
+        margin-top: 12px;
     }
 
     .result-section {
-        margin-bottom: 0;
+        padding: 0 8px;
     }
 
-    .footer {
-        padding-top: 5px;
+    .result-message {
+        font-size: 1.1rem;
+        padding: 16px;
+        line-height: 1.4;
     }
 
     .next-btn {
-        font-size: 1rem;
-        width: 90%;
-        padding: 10px;
+        font-size: 1.2rem;
+        width: 100%;
+        max-width: 300px;
+        padding: 16px 24px;
+        min-height: 48px;
+    }
+
+    .footer {
+        padding: 16px 8px;
     }
 }
