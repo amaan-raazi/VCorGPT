@@ -173,7 +173,7 @@ body {
     text-decoration: underline;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 768px) {
     #title {
         font-size: 2rem;
     }
@@ -196,11 +196,16 @@ body {
     }
 
     .header {
+        margin-top: 20px;
         margin-bottom: 0;
     }
 
     .score-section {
         margin-bottom: 20px;
+    }
+
+    .game-container {
+        gap: 20px;
     }
 
     .card {
@@ -216,7 +221,7 @@ body {
 
     .startup-description {
         opacity: 1;
-        font-size: 0.9rem;
+        font-size: 0.8rem;
     }
 
     .result-message {
