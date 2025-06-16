@@ -172,90 +172,117 @@ body {
 }
 
 @media (max-width: 768px) {
+    body {
+        overflow-x: hidden;
+        min-height: 100dvh;
+    }
+
     .container {
         padding: 0 12px;
+        min-height: calc(100dvh - 300px);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
     }
 
     #title {
-        font-size: 2.5rem;
-        line-height: 1.1;
+        font-size: 2rem;
+        line-height: 1;
+        margin-bottom: 5px;
     }
 
     #tag-line {
-        font-size: 1.2rem;
-        line-height: 1.3;
+        font-size: 1rem;
+        line-height: 1.2;
     }
 
     .score {
-        font-size: 1.7rem;
+        font-size: 1.4rem;
+        margin-bottom: 5px;
     }
 
     .instruction {
-        font-size: 1rem;
+        font-size: 0.9rem;
         padding: 0 8px;
-        line-height: 1.4;
+        line-height: 1.3;
     }
 
     .header {
-        margin-top: 30px;
-        margin-bottom: 20px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        flex-shrink: 0;
     }
 
     .score-section {
-        margin-bottom: 30px;
+        margin-bottom: 15px;
+        flex-shrink: 0;
     }
 
     .game-container {
         flex-direction: column;
-        gap: 16px;
-        margin-bottom: 30px;
+        gap: 12px;
+        margin-bottom: 15px;
         align-items: center;
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        min-height: 0;
     }
 
     .card {
         margin-top: 0;
         width: 100%;
-        max-width: 350px;
-        padding: 24px;
+        max-width: 320px;
+        padding: 16px;
         min-height: 44px;
+        flex-shrink: 0;
     }
 
     .startup-name {
-        font-size: 1.3rem;
-        line-height: 1.2;
-        margin-bottom: 12px;
+        font-size: 1.1rem;
+        line-height: 1.1;
+        margin-bottom: 8px;
     }
 
     .startup-description {
-        font-size: 0.9rem;
-        line-height: 1.5;
+        font-size: 0.8rem;
+        line-height: 1.3;
     }
 
     .funding-info {
-        font-size: 0.85rem;
-        padding: 6px 10px;
-        margin-top: 12px;
+        font-size: 0.75rem;
+        padding: 4px 6px;
+        margin-top: 8px;
     }
 
     .result-section {
         padding: 0 8px;
+        flex-shrink: 0;
+        margin-bottom: 10px;
     }
 
     .result-message {
-        font-size: 1.1rem;
-        padding: 16px;
-        line-height: 1.4;
+        font-size: 1rem;
+        padding: 12px;
+        line-height: 1.3;
+        margin-bottom: 10px;
     }
 
     .next-btn {
-        font-size: 1.2rem;
+        font-size: 1rem;
         width: 100%;
-        max-width: 300px;
-        padding: 16px 24px;
-        min-height: 48px;
+        max-width: 280px;
+        padding: 12px 20px;
+        min-height: 44px;
     }
 
     .footer {
-        padding: 16px 8px;
+        padding: 10px 8px;
+        flex-shrink: 0;
+        margin-top: 0;
+    }
+
+    .footer a {
+        font-size: 0.9rem;
     }
 }
