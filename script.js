@@ -120,9 +120,9 @@ function showScoreSummary() {
 
     finalScoreElement.textContent = `🎯 ${correctAnswers} / ${totalAnswers}`;
 
-    if (correctAnswers / totalAnswers >= 0.75) {
+    if (correctAnswers / totalAnswers >= 0.9) {
         scoreMessageElement.textContent = 'Y Combinator GOAT! 🚀';
-    } else if (correctAnswers / totalAnswers >= 0.5) {
+    } else if (correctAnswers / totalAnswers >= 0.6) {
         scoreMessageElement.textContent = 'One pivot away from Demo Day!';
     } else {
         scoreMessageElement.textContent = "YC this YC that Y can't we C any revenue?";
