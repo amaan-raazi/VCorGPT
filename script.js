@@ -96,7 +96,7 @@ function makeGuess(isCorrect, clickedCard) {
 
     updateScore();
 
-    if (totalAnswers === 5) {
+    if (totalAnswers % 5 === 0) {
         showScoreSummary();
     } else {
         resultSection.style.display = 'block';
@@ -118,11 +118,11 @@ function showScoreSummary() {
     resultSection.style.display = 'none';
     scoreSummary.style.display = 'block';
 
-    finalScoreElement.textContent = `🎯 ${correctAnswers} / 5`;
+    finalScoreElement.textContent = `🎯 ${correctAnswers} / ${totalAnswers}`;
 
-    if (correctAnswers >= 4) {
+    if (correctAnswers/totalAnswers >= 0.75) {
         scoreMessageElement.textContent = 'Y Combinator GOAT! 🚀';
-    } else if (correctAnswers >= 3) {
+    } else if (correctAnswers/totalAnswers >= 0.5) {
         scoreMessageElement.textContent = 'One pivot away from Demo Day!';
     } else {
         scoreMessageElement.textContent = "YC this YC that Y can't we C any revenue?";
@@ -130,16 +130,15 @@ function showScoreSummary() {
 }
 
 function shareOnTwitter() {
-    const text = `I just scored ${correctAnswers}/5 on "VC or GPT" - can you tell the difference between real startups and AI-generated ones? 🚀`;
+    const text = `I just scored ${correctAnswers}/${totalAnswers} on "VC or GPT" - can you tell the difference between real startups and AI-generated ones? 🚀`;
     const url = window.location.href;
     const twitterUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(url)}`;
     window.open(twitterUrl, '_blank');
 }
 
 function shareOnLinkedIn() {
-    const text = `I just scored ${correctAnswers}/5 on "VC or GPT" - a fun game testing whether you can distinguish real startups from AI-generated ones. Can you tell the difference between real startups and AI-generated ones? 🚀`;
     const url = window.location.href;
-    const linkedInUrl = `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(url)}&summary=${encodeURIComponent(text)}`;
+    const linkedInUrl = `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(url)}`;
     window.open(linkedInUrl, '_blank');
 }
 
