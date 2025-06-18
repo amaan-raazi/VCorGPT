@@ -187,7 +187,6 @@ body {
 }
 
 .share-btn {
-    display: none;
     padding: 12px 24px;
     border: none;
     border-radius: 8px;
@@ -219,7 +218,6 @@ body {
 }
 
 .continue-btn {
-    display: none;
     background: #ff6600;
     color: white;
     border: none;
@@ -286,6 +284,9 @@ body {
     }
 
     .header {
+        position: sticky;
+        z-index: 1;
+        top: 0;
         margin-top: 15px;
         margin-bottom: 10px;
         flex-shrink: 0;

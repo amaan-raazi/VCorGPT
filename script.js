@@ -97,7 +97,7 @@ function makeGuess(isCorrect, clickedCard) {
     updateScore();
 
     if (totalAnswers === 5) {
-        setTimeout(showScoreSummary, 1000);
+        showScoreSummary();
     } else {
         resultSection.style.display = 'block';
     }
