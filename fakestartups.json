@@ -1,10 +1,5 @@
 [
   {
-    "name": "Neon Cactus Collective",
-    "description": "Urban plant care subscription with AR watering reminders",
-    "funding": "$4.5M"
-  },
-  {
     "name": "Ghost Pepper Labs",
     "description": "Makes spicy snacks infused with natural energy compounds",
     "funding": "Undisclosed"
@@ -27,17 +22,17 @@
   {
     "name": "BubbleWrap Universe",
     "description": "Turns bubble wrap into biodegradable art materials",
-    "funding": "$2.1M"
+    "funding": "$200K"
   },
   {
     "name": "SnailTrail Express",
     "description": "Eco-friendly delivery with slow-moving robotic vehicles",
-    "funding": "$5.7M"
+    "funding": "$5M"
   },
   {
     "name": "FrostFiber Wearables",
     "description": "Smart clothing that adjusts to temperature changes",
-    "funding": "$9.8M"
+    "funding": "$9M"
   },
   {
     "name": "Wired Willow",
@@ -47,7 +42,7 @@
   {
     "name": "ToastTalk Inc.",
     "description": "Smart toaster delivering motivational quotes and stats",
-    "funding": "$1.8M"
+    "funding": "$2M"
   },
   {
     "name": "EchoSprout Botanics",
@@ -57,12 +52,12 @@
   {
     "name": "ShadowMint Collective",
     "description": "Digital avatars created from user shadow scans",
-    "funding": "$6.4M"
+    "funding": "$90M+"
   },
   {
     "name": "PixelPollen Tech",
     "description": "Drones delivering pollen to urban gardens for pollination",
-    "funding": "$8.2M"
+    "funding": "$8M"
   },
   {
     "name": "MoodTide Labs",
@@ -72,12 +67,12 @@
   {
     "name": "SnugSphere Solutions",
     "description": "Portable noise-canceling pods for focus and rest",
-    "funding": "$11.3M"
+    "funding": "$11M"
   },
   {
     "name": "WispWire Audio",
     "description": "Invisible wireless headphones integrated in hair strands",
-    "funding": "$14.5M"
+    "funding": "$14M"
   },
   {
     "name": "RootRune Ink",
@@ -92,42 +87,32 @@
   {
     "name": "DustDrift Robotics",
     "description": "Vacuum robots that plant seeds while cleaning floors",
-    "funding": "$5.9M"
-  },
-  {
-    "name": "GlowGlyph Wearables",
-    "description": "Wearable tattoos that glow only at social events",
-    "funding": "$4.2M"
+    "funding": "$5M"
   },
   {
     "name": "PulsePouch Health",
     "description": "Wearables that store and release adrenaline safely",
-    "funding": "$8.6M"
+    "funding": "$9M"
   },
   {
     "name": "CryptCuddle Pets",
     "description": "NFT pets that evolve based on owner’s activity",
-    "funding": "$9.4M"
+    "funding": "$9M"
   },
   {
     "name": "LunarLoom Textiles",
     "description": "Fabrics that glow under moonlight for nightwear",
-    "funding": "$3.3M"
+    "funding": "$3M"
   },
   {
     "name": "FrondFrame Decor",
     "description": "Picture frames with live plants growing around edges",
-    "funding": "$1.6M"
+    "funding": "$200K"
   },
   {
     "name": "WhisperWave Audio",
     "description": "Silent party tech sending music directly to ears",
-    "funding": "$11.8M"
-  },
-  {
-    "name": "ScentShadow Wearables",
-    "description": "Wearables that emit scents matching social media status",
-    "funding": "Undisclosed"
+    "funding": "$12M+"
   },
   {
     "name": "GlowGrid Solar",
@@ -147,17 +132,12 @@
   {
     "name": "WaveWick Candles",
     "description": "Candles changing scents synced with music",
-    "funding": "$2.7M"
-  },
-  {
-    "name": "InklingInk Studios",
-    "description": "Ink reacting to heartbeat patterns for unique handwriting",
-    "funding": "$3.9M"
+    "funding": "$2.73M"
   },
   {
     "name": "FlickerFuse Lighting",
     "description": "Smart matches syncing fire intensity with music",
-    "funding": "$4.8M"
+    "funding": "€12M+"
   },
   {
     "name": "Crimson Tide Robotics",
@@ -165,44 +145,29 @@
     "funding": "$9.7M"
   },
   {
-    "name": "NimbusKnit Apparel",
-    "description": "Wearables producing cooling mists during workouts",
-    "funding": "$10.6M"
-  },
-  {
-    "name": "PixelPuddle AR",
-    "description": "AR app turning puddles into interactive ecosystems",
-    "funding": "$4.3M"
-  },
-  {
     "name": "ToastNest Appliances",
     "description": "Smart toaster baking artisan bread based on weather",
-    "funding": "$6.9M"
-  },
-  {
-    "name": "ClarityClad Eyewear",
-    "description": "Glasses filtering toxic social media content live",
-    "funding": "$7.6M"
+    "funding": "$7M+"
   },
   {
     "name": "DriftDome Pods",
     "description": "Floating relaxation pods powered by water currents",
-    "funding": "$7.9M"
+    "funding": "$7M+"
   },
   {
     "name": "SnailTrail Logistics",
     "description": "Slow robotic delivery optimized for eco-friendliness",
-    "funding": "$6.1M"
+    "funding": "$6M+"
   },
   {
     "name": "GlitchFarm Studios",
     "description": "Virtual farms breeding glitch art creatures in metaverse",
-    "funding": "$2.4M"
+    "funding": "€2M"
   },
   {
     "name": "BlinkCaps Health",
     "description": "Smart bottle caps tracking hydration and nutrients",
-    "funding": "$2.1M"
+    "funding": "€2.1M"
   },
   {
     "name": "ToastTalk Interactive",
@@ -222,7 +187,7 @@
   {
     "name": "SwayStitch Apparel",
     "description": "Clothes that shift pattern and color by mood",
-    "funding": "$6.8M"
+    "funding": "€700K"
   },
   {
     "name": "Crimson Coil Labs",

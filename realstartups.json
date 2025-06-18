@@ -1,10 +1,5 @@
 [
   {
-    "name": "Liquid Death",
-    "description": "Sells canned mountain water with heavy metal-inspired branding",
-    "funding": "$195M"
-  },
-  {
     "name": "Bird Buddy",
     "description": "Smart bird feeder that takes photos of birds and identifies species using AI",
     "funding": "$20M+"
@@ -13,11 +8,6 @@
     "name": "CamelsNow",
     "description": "Online camel delivery and logistics platform for the Middle East",
     "funding": "Undisclosed"
-  },
-  {
-    "name": "Toilet Finder",
-    "description": "Mobile app to locate clean public toilets nearby",
-    "funding": "$500K+"
   },
   {
     "name": "Gik Live!",
@@ -141,22 +131,12 @@
   },
   {
     "name": "Smallhold",
-    "description": "Grew specialty mushrooms in urban micro-farms before going bankrupt",
+    "description": "Grew specialty mushrooms in urban micro-farms",
     "funding": "$90M"
-  },
-  {
-    "name": "what3words",
-    "description": "Maps every 3m² on Earth to a unique three-word address",
-    "funding": "Undisclosed"
   },
   {
     "name": "Mycocycle",
     "description": "Uses mushrooms to break down construction and plastic waste",
-    "funding": "Unknown"
-  },
-  {
-    "name": "Mogu (SQIM)",
-    "description": "Produces mycelium-based design materials like acoustic panels and flooring",
     "funding": "Unknown"
   },
   {
@@ -170,16 +150,6 @@
     "funding": "Unknown"
   },
   {
-    "name": "Odyssey Wellness",
-    "description": "Mushroom-based functional drinks with Lion’s Mane and Cordyceps",
-    "funding": "Unknown"
-  },
-  {
-    "name": "4AG Robotics",
-    "description": "Automates mushroom farming with robotic harvesters",
-    "funding": "Unknown"
-  },
-  {
     "name": "Coral Vita",
     "description": "Grows coral in land-based tanks to regenerate dying reefs",
     "funding": "$2M"
@@ -188,16 +158,6 @@
     "name": "Neptune Memorial Reef",
     "description": "Underwater columbarium and memorial site built into a manmade reef",
     "funding": "Nonprofit / ongoing"
-  },
-  {
-    "name": "Reef Design Lab",
-    "description": "3D-prints reef structures for marine life restoration",
-    "funding": "Unknown"
-  },
-  {
-    "name": "MARRS (Mars Reef)",
-    "description": "Reef restoration tech using steel frames, spun out of Mars Inc.",
-    "funding": "Corporate-spun"
   },
   {
     "name": "Bonsai Mirai",
@@ -218,11 +178,6 @@
     "name": "BioCarbon Engineering",
     "description": "Uses drones to fire tree seeds into the ground for reforestation",
     "funding": "Unknown"
-  },
-  {
-    "name": "Billion Oyster Project",
-    "description": "Restores oyster reefs to clean NYC’s harbor through recycled shells",
-    "funding": "Nonprofit / grant funded"
   },
   {
     "name": "Shoes That Grow",

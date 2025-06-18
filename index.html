@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VC or GPT</title>
     <link rel="icon" type="image/svg+xml" href="/favicon.svg">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -40,12 +39,28 @@
         <div class="result-message" id="resultMessage"></div>
         <button class="next-btn" id="nextBtn">Next Round</button>
     </div>
+
+    <div class="score-summary" id="scoreSummary">
+        <h2 class="final-score" id="finalScore"></h2>
+        <div class="score-message" id="scoreMessage"></div>
+
+        <div class="share-buttons">
+            <button class="share-btn twitter" onclick="shareOnTwitter()">
+                Share on Twitter
+            </button>
+            <button class="share-btn linkedin" onclick="shareOnLinkedIn()">
+                Share on LinkedIn
+            </button>
+        </div>
+        <button class="continue-btn" onclick="continueGame()">Continue Playing</button>
+    </div>
+
 </div>
+
 <div class="footer">
 
     <p>Inspired by <a href="https://snarxiv.org/vs-arxiv/">arXiv vs. snarXiv</a></p>
-    <p>Made with ❤️ by <a
-            href="https://www.linkedin.com/in/amaan-raazi/"> Amaan</a> and <a
+    <p>Made with ❤️ by <a href="https://www.linkedin.com/in/amaan-raazi/"> Amaan</a> and <a
             href="https://www.linkedin.com/in/madhav-vasisth-1873382a2/">Madhav</a></p>
     <p id="year"></p>
 </div>
