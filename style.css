@@ -187,6 +187,7 @@ body {
 }
 
 .share-btn {
+    display: none;
     padding: 12px 24px;
     border: none;
     border-radius: 8px;
@@ -218,6 +219,7 @@ body {
 }
 
 .continue-btn {
+    display: none;
     background: #ff6600;
     color: white;
     border: none;
