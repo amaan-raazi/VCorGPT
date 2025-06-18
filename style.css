@@ -207,13 +207,13 @@ body {
     transform: translateY(-2px);
 }
 
-.share-btn.linkedin {
-    background: #0a66c2;
+.share-btn.whatsapp {
+    background: #25d366;
     color: white;
 }
 
-.share-btn.linkedin:hover {
-    background: #095ba8;
+.share-btn.whatsapp:hover {
+    background: #1da851;
     transform: translateY(-2px);
 }
 

@@ -120,9 +120,9 @@ function showScoreSummary() {
 
     finalScoreElement.textContent = `🎯 ${correctAnswers} / ${totalAnswers}`;
 
-    if (correctAnswers/totalAnswers >= 0.75) {
+    if (correctAnswers / totalAnswers >= 0.75) {
         scoreMessageElement.textContent = 'Y Combinator GOAT! 🚀';
-    } else if (correctAnswers/totalAnswers >= 0.5) {
+    } else if (correctAnswers / totalAnswers >= 0.5) {
         scoreMessageElement.textContent = 'One pivot away from Demo Day!';
     } else {
         scoreMessageElement.textContent = "YC this YC that Y can't we C any revenue?";
@@ -136,10 +136,10 @@ function shareOnTwitter() {
     window.open(twitterUrl, '_blank');
 }
 
-function shareOnLinkedIn() {
-    const url = window.location.href;
-    const linkedInUrl = `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(url)}`;
-    window.open(linkedInUrl, '_blank');
+function shareOnWhatsApp() {
+    const text = `I just scored ${correctAnswers}/${totalAnswers} on "VC or GPT" - can you tell the difference between real startups and AI-generated ones? 🚀`;
+    const url = `https://wa.me/?text=${text}`;
+    window.open(url, '_blank');
 }
 
 function continueGame() {
