@@ -130,14 +130,14 @@ function showScoreSummary() {
 }
 
 function shareOnTwitter() {
-    const text = `I just scored ${correctAnswers}/${totalAnswers} on "VC or GPT" - can you tell the difference between real startups and AI-generated ones? 🚀`;
+    const text = `I just scored ${correctAnswers}/${totalAnswers} on "VC or GPT" - can you tell the difference between real startups and AI-generated ones? VCorGPT.com`;
     const url = window.location.href;
     const twitterUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(url)}`;
     window.open(twitterUrl, '_blank');
 }
 
 function shareOnWhatsApp() {
-    const text = `I just scored ${correctAnswers}/${totalAnswers} on "VC or GPT" - can you tell the difference between real startups and AI-generated ones? 🚀`;
+    const text = `I just scored ${correctAnswers}/${totalAnswers} on "VC or GPT" - can you tell the difference between real startups and AI-generated ones? VCorGPT.com`;
     const url = `https://wa.me/?text=${text}`;
     window.open(url, '_blank');
 }
