@@ -284,9 +284,6 @@ body {
     }
 
     .header {
-        position: sticky;
-        z-index: 1;
-        top: 0;
         margin-top: 15px;
         margin-bottom: 10px;
         flex-shrink: 0;
